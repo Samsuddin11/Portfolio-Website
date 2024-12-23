@@ -362,12 +362,12 @@ main hr {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Adds space between cards */
+    gap: 20px;
 }
 
 .project-card {
-    flex: 1 1 calc(25% - 40px); /* Flexible width, accounting for gaps */
-    max-width: 300px; /* Ensures cards don't grow too large */
+    flex: 1 1 calc(25% - 40px);
+    max-width: 300px; 
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -377,8 +377,8 @@ main hr {
 }
 
 .project-card img {
-    width: 100%; /* Ensure image fits card width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto;
     border-bottom: 1px solid #ccc;
 }
 

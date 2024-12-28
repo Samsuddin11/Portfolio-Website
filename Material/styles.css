@@ -4,10 +4,12 @@
 }
 
 body {
-    background-color: rgb(0, 0, 33);
+    background: linear-gradient(90deg, rgba(0, 91, 255, 1) 9%, rgba(9, 9, 121, 1) 55%, rgba(2, 0, 36, 1) 97%);
+
     color: white;
     font-family: "Poppins", sans-serif;
 }
+
 
 nav {
     display: flex;

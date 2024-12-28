@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../Resource/profile.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../Resource/me.png">
+    <link rel="stylesheet" href="./style1.css">
 </head>
 
 <body>
+    </div>
     <header>
         <nav>
             <div class="left"><b>Contact </b></div>
@@ -30,30 +32,37 @@
 
     <section class="contact-section">
         <h2>Contact Me</h2>
-        <p>Feel free to reach out to me through any of the following channels:</p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/samsuddin-khan/" target="_blank" class="social-icon"><img src="../Resource/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://github.com/Samsuddin11" target="_blank" class="social-icon"><img src="../Resource/github.png" alt="GitHub"></a>
-            <a href="https://x.com/Samsu78_Khan" target="_blank" class="social-icon"><img src="../Resource/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/samsu.khan_/" target="_blank" class="social-icon"><img src="../Resource/instagram.png" alt="Instagram"></a>
-            <a href="mailto:easybreezy009@gmail.com"  class="social-icon email"><img src="../Resource/gmail.png" alt="Email"></a>
-        </div>
-    </section>
-    <!-- <div class="main-section contact bg-lightgrey">
-        <div class="container">
-          <h2 class="heading-text">Get In Touch</h2>
-          <div class="width-100">
-            <form>
-              <input type="text" placeholder="Full Name...">
-              <input type="text" placeholder="Full Email Id...">
-              <input type="text" placeholder="Full Mobile No...">
-            
+        <form action="https://api.web3forms.com/submit" method="POST">
              
+            <input type="hidden" name="access_key" value="76cdab05-10db-4d0c-9363-b6f75d1bfdbb">
+
+            <div class="form-group">
+                <input type="text" id="name" name="name" required placeholder=" ">
+                <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required placeholder=" ">
+                <label for="email">Email</label>
+            </div>
+              
+              <div class="form-group">
+                <textarea id="message" name="message" rows="3" required placeholder=" "></textarea>
+                <label for="message">Message</label>
+              </div>
+
+              <button class="btn" type="submit">Submit</button>
+
             </form>
+            <br>
+          <p>Feel free to reach out to me through any of the following channels:</p>
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/samsuddin-khan/" target="_blank" class="social-icon"><img src="../Resource/linkedin.png" alt="LinkedIn"></a>
+              <a href="https://github.com/Samsuddin11" target="_blank" class="social-icon"><img src="../Resource/github.png" alt="GitHub"></a>
+              <a href="https://x.com/Samsu78_Khan" target="_blank" class="social-icon"><img src="../Resource/twitter.png" alt="Twitter"></a>
+              <a href="https://www.instagram.com/samsu.khan_/" target="_blank" class="social-icon"><img src="../Resource/instagram.png" alt="Instagram"></a>
+              <a href="mailto:easybreezy009@gmail.com"  class="social-icon email"><img src="../Resource/gmail.png" alt="Email"></a>
           </div>
           
-        </div>
-      </div> -->
-    
+    </section>  
 </body>
 </html>
